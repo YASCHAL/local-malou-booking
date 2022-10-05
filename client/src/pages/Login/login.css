@@ -1,0 +1,60 @@
+.body{
+    width: 100%;
+    font-family: Arial;
+    background: url(https://images.pexels.com/photos/1549326/pexels-photo-1549326.jpeg?auto=compress&cs=tinysrgb&w=600)
+    no-repeat center 35% / cover;
+   
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    opacity: 0.75;
+}
+.login{
+   position: absolute;
+   left: 40%;
+   top: 40%;
+   opacity: 1;
+}
+
+.lContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.lInput{
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid #12fcf8;
+    border-radius: 20px/50px;
+    outline: none;
+}
+
+.lButton{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3rem;
+    color: #fff;
+    border: 2px solid #12fcf8;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    background: rgba(10,149,147,0.25);
+    transition: all 0.3s ease-out;
+}
+.lButton:hover{
+    background: #12fcf8;
+    color: #333;
+}
+
+.lButton:disabled{
+    background-color: #0071c28c;
+    cursor: pointer;
+
+}
